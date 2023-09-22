@@ -1,0 +1,32 @@
+﻿  Collision.cpp
+C:\Dev\GameEngine\GameEngine\src\ECS\TransformComponent.h(19,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\TransformComponent.h(19,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\SpriteComponent.h(71,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\SpriteComponent.h(72,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\ColliderComponent.h(31,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\ColliderComponent.h(32,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Game.cpp
+C:\Dev\GameEngine\GameEngine\src\ECS\TransformComponent.h(19,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\TransformComponent.h(19,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\SpriteComponent.h(71,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\SpriteComponent.h(72,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\ColliderComponent.h(31,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\ColliderComponent.h(32,34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\Game.cpp(106,50): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\Game.cpp(107,50): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Dev\GameEngine\GameEngine\src\ECS\ECS.h(83,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\GameEngine\GameEngine\src\Game.cpp(76,11): message : see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,int>(int &&)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+  GameObject.cpp
+  Map.cpp
+  TextureManager.cpp
+  main.cpp
+  Generating Code...
+  GameEngine.vcxproj -> C:\Dev\GameEngine\x64\Debug\GameEngine.exe
